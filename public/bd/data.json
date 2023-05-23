@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Naruto",
+    "image": "https://naruto-official.com/special/20th/carousel_1.webp",
+    "description": "description de Naruto",
+    "commentaires": [
+      "commentaire1",
+      "commentaire2",
+      "commentaire3"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dragon ball",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGM5MTEyZDItZWNhOS00NzNkLTgwZTAtNWIzY2IzZmExOWMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+    "description": "description de dragon ball z",
+    "commentaires": [
+      "commentaire1",
+      "commentaire2",
+      "commentaire3"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Demon slayer",
+    "image": "https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_.jpg",
+    "description": "description de demon slayer",
+    "commentaires": [
+      "commentaire1",
+      "commentaire2",
+      "commentaire3"
+    ]
+  }
+]

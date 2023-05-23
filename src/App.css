@@ -1,0 +1,121 @@
+#mini_img_pub,
+.profil {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.story {
+  width: 60px;
+  height: 60px;
+}
+
+input {
+  border-style: hidden;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+}
+
+.menuLateral {
+  border-right: darkgray 1px solid;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 769px) {
+  .menuLateral {
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .menuLateral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .content-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profil-right {
+    display: flex;
+    flex-direction: row;
+    margin: none;
+  }
+
+  .profil-right :nth-child(1) {
+    order: 1;
+  }
+
+  .profil-right :nth-child(2) {
+    order: 2;
+  }
+
+  .profil-right :nth-child(3) {
+    margin-right: auto;
+  }
+
+  .menuLateral span {
+    display: none;
+  }
+
+  .menuLateral h1 {
+    display: none;
+  }
+
+  .menuLateral div {
+    margin: 0 !important;
+  }
+}
+
+.messages i {
+  font-size: 50px;
+  border: 1px solid black;
+}
+
+.card_messages {
+  width: 22rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .messages {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 15px;
+  }
+
+  .card_messages {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+  }
+}
+
+#show_commentaires:hover {
+  cursor: pointer;
+  color: blue;
+}
+#list_commentaires {
+  display: none;
+}
